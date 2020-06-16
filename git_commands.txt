@@ -1,0 +1,15 @@
+git --version
+git config --globa user.name "Aamir Mulla"
+git config --globa user.email "aamir.siraj.mulla@gmail.com"
+git config --list
+git config user.name
+man git
+echo "# github first push" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/aamir-s-mulla/git-first.git
+
+git status
+git status --short
+git status -s
