@@ -10,6 +10,48 @@ git add .
 git commit -m "first commit"
 git remote add origin https://github.com/aamir-s-mulla/git-first.git
 
+git commit -a -m "Adding without putting the file in staging"
+
 git status
 git status --short
 git status -s
+
+git diff --staged
+
+open -a atom {filename}
+
+git log
+git log -1
+git log --oneline
+git log --stat
+git log --patch
+
+git rm fileName
+git rm --cached fileName
+
+git mv README.md README
+
+git checkout [branch_name]
+git branch [branch_name]
+git checkout -b new_branch
+
+
+git config --edit --global
+git config core.editor "notepad++" -mulinst -nosesession
+
+git clone https://github.com/aamir-s-mulla/git-first.git
+git push origin master
+
+git push -u origin [new-branch]
+
+git fetch
+git pull
+
+git tag
+
+git tab -d "tab_name"
+
+https://desktop.github.com/
+
+git rm --cached
+git mv file_name new_filename
