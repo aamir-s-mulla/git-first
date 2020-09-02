@@ -49,9 +49,28 @@ git pull
 
 git tag
 
+git push --tags 
+
 git tab -d "tab_name"
 
 https://desktop.github.com/
 
 git rm --cached
 git mv file_name new_filename
+
+git reset --hard {Commit ID}
+git reset --mixed {Commit ID}
+git reset --hard HEAD
+
+git stash --include-untracked
+git statsh list
+git stash clear
+
+git log --graph --decorete --oneline
+git blame fileName
+
+git show HEAD
+
+git config --global alias.s "status -s"
+
+https://pages.github.com/
